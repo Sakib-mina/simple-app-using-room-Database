@@ -13,6 +13,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+  // create a room database
+
         val db = Room.databaseBuilder(
             applicationContext,
             AppDataBase::class.java,
